@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title></title> 
+	<style type="text/css"> 
+	* {
+		margin: 0;
+		padding: 0; 
+	  } 
+	.header 
+	{ 
+		height: 80px;  
+		background: black;
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+    } 
+    .menu ul li
+    {
+    	list-style: none;
+    	display: inline-block;
+    	margin: 20px 30px  0px 30px;
+    	/*margin-top: 20px;*/
+
+    }
+    .menu ul li .text
+    {
+    	text-decoration: none;
+    	font-size: 20px;
+    	color: white;
+    }
+    .text::after
+    {
+    	content:"";
+    	display: block;
+    	height: 3px;
+    	width: 0%;
+    	background-color: red;
+    	transition: .7s;
+    	margin-top: 10px;
+    }
+    .text:hover::after
+    {
+    	width: 100%;
+    	transition: .7s
+    }
+   /* .h
+    {
+    	display: flex;
+    	margin: 100px;
+    }*/
+    .main
+    {
+    	height: 100px;
+    	width: 100px;
+    	background: white;
+    	margin: 150px 150px;
+    }
+    .icon
+    {
+    	text-align: center;
+    }
+    i
+    {
+
+    }
+   
+  
+	</style> 
+</head> 
+<body>
+
+	<div class="header">
+		<div class="menu">
+		<ul>
+			<li><a href="" class="text">Home</a></li>
+			<li><a href="" class="text">About</a></li>
+			<li><a href="" class="text">Men's wear</a></li>
+			<li><a href="" class="text">Women's wear</a></li>
+			<li><a href="" class="text">Short codes</a></li>
+			<li><a href="" class="text">contact</a></li>
+		  </ul>
+		</div>
+	</div>
+
+
+	<!-- contant
